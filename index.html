@@ -1,1 +1,92 @@
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>SiteWebPingouin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 40px;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.1);
+            border-radius: 20px;
+            padding: 30px;
+            margin: 20px auto;
+            width: 300px;
+            backdrop-filter: blur(10px);
+        }
+
+        button {
+            background: #00c6ff;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 10px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #0072ff;
+            transform: scale(1.05);
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            font-size: 0.9em;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    SiteWebPingouin
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Offre Premium</h2>
+        <p>Accède à du contenu exclusif </p>
+        <p><strong>5€</strong></p>
+
+        <button onclick="payer()">Payer maintenant</button>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 SiteWebPingouin - Tous droits réservés
+</footer>
+
+<script>
+function payer() {
+    alert("Paiement bientôt disponible");
+
+}
+</script>
+
+</body>
+</html>
